@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_playstation3_psgl", "example_playstation3_psgl\example_playstation3_psgl.vcxproj", "{A928F910-A71C-4EA8-833B-0B65C1B2DD80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_playstation3_gcm", "example_playstation3_gcm\example_playstation3_gcm.vcxproj", "{7BB7F60A-5BEE-4597-B847-A0611CD0FDD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_playstation3_gcm_prx_hook", "example_playstation3_gcm_prx_hook\example_playstation3_gcm_prx_hook.vcxproj", "{B3092B08-1925-42D0-BF1D-B197E66E535E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PS3 = Debug|PS3
+		Release|PS3 = Release|PS3
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A928F910-A71C-4EA8-833B-0B65C1B2DD80}.Debug|PS3.ActiveCfg = Debug|PS3
+		{A928F910-A71C-4EA8-833B-0B65C1B2DD80}.Debug|PS3.Build.0 = Debug|PS3
+		{A928F910-A71C-4EA8-833B-0B65C1B2DD80}.Release|PS3.ActiveCfg = Release|PS3
+		{A928F910-A71C-4EA8-833B-0B65C1B2DD80}.Release|PS3.Build.0 = Release|PS3
+		{7BB7F60A-5BEE-4597-B847-A0611CD0FDD6}.Debug|PS3.ActiveCfg = Debug|PS3
+		{7BB7F60A-5BEE-4597-B847-A0611CD0FDD6}.Debug|PS3.Build.0 = Debug|PS3
+		{7BB7F60A-5BEE-4597-B847-A0611CD0FDD6}.Release|PS3.ActiveCfg = Release|PS3
+		{7BB7F60A-5BEE-4597-B847-A0611CD0FDD6}.Release|PS3.Build.0 = Release|PS3
+		{B3092B08-1925-42D0-BF1D-B197E66E535E}.Debug|PS3.ActiveCfg = Debug|PS3
+		{B3092B08-1925-42D0-BF1D-B197E66E535E}.Debug|PS3.Build.0 = Debug|PS3
+		{B3092B08-1925-42D0-BF1D-B197E66E535E}.Release|PS3.ActiveCfg = Release|PS3
+		{B3092B08-1925-42D0-BF1D-B197E66E535E}.Release|PS3.Build.0 = Release|PS3
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
