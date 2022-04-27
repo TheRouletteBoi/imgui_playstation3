@@ -7,7 +7,6 @@ build/*
 **/*.log
 **/*.o
 **/*.elf
-**/*.vcxproj.filters
 **/archives/*
 *.sdf
 *.suo
@@ -17,5 +16,7 @@ PS3_Debug/*
 PS3_Release/*
 bin/*
 bin-int/*
+examples/bin/*
+examples/bin-int/*
 *.opensdf
 .vs/*
