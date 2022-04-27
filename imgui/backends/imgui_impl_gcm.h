@@ -1,4 +1,4 @@
-#include "ImGui/imgui.h"      // IMGUI_IMPL_API
+#include "../imgui.h"      // IMGUI_IMPL_API
 
 IMGUI_API bool        ImGui_ImplGcm_Init();
 IMGUI_API void        ImGui_ImplGcm_Shutdown();

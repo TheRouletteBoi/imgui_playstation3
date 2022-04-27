@@ -1,5 +1,5 @@
-#include "imgui/imgui.h"
-#include "imgui/backends/imgui_impl_gcm.h"
+#include "../imgui.h"
+#include "imgui_impl_gcm.h"
 #include <cell/gcm.h>
 
 

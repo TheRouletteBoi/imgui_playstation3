@@ -1,6 +1,6 @@
 
-#include "imgui/imgui.h"
-#include "imgui/backends/imgui_impl_psgl.h"
+#include "../imgui.h"
+#include "imgui_impl_psgl.h"
 #include <PSGL/psgl.h>
 
 struct ImGui_ImplPSGL_Data

@@ -1,6 +1,6 @@
 
-#include "imgui/imgui.h"
-#include "imgui/backends/imgui_impl_playstation3.h"
+#include "../imgui.h"
+#include "imgui_impl_playstation3.h"
 
 
 // check for proper cursor handling
