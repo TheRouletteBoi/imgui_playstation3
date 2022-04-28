@@ -3,6 +3,8 @@
 #include <sys/ppu_thread.h>
 #include <sys/timer.h>
 #include <cell/pad.h>
+#include "Utils/NewDeleteOverride.hpp"
+#include "Hooks.hpp"
 
 SYS_MODULE_INFO(playstation3_gcm_prx_hook, 0, 1, 1);
 SYS_MODULE_START(module_start);
@@ -15,7 +17,7 @@ int module_start(unsigned int args, void* argp)
 {
     sys_ppu_thread_create(&gMainPpuThreadId, [](uint64_t arg) -> void
     {
-        // TODO!
+        InstallHooks();
 
         sys_ppu_thread_exit(0);
 
@@ -28,6 +30,8 @@ int module_stop(unsigned int args, void* argp)
 {
     if (gMainPpuThreadId != SYS_PPU_THREAD_ID_INVALID)
     {
+        RemoveHooks();
+
         uint64_t exitCode;
         sys_ppu_thread_join(gMainPpuThreadId, &exitCode);
     }

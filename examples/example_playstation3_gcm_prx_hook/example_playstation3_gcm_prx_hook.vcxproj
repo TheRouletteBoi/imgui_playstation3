@@ -85,6 +85,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memory\Detour.cpp" />
+    <ClCompile Include="Memory\Memory.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Utils\FileSystem.cpp" />
+    <ClCompile Include="Utils\SystemCalls.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory\Detour.hpp" />
+    <ClInclude Include="Memory\Memory.hpp" />
+    <ClInclude Include="Utils\Exports.hpp" />
+    <ClInclude Include="Hooks.hpp" />
+    <ClInclude Include="Utils\FileSystem.hpp" />
+    <ClInclude Include="Utils\NewDeleteOverride.hpp" />
+    <ClInclude Include="Utils\SystemCalls.hpp" />
   </ItemGroup>
   <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

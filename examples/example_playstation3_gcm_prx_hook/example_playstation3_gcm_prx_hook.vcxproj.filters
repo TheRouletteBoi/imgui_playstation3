@@ -12,5 +12,43 @@
     <ClCompile Include="main.cpp">
       <Filter>sources</Filter>
     </ClCompile>
+    <ClCompile Include="Memory\Detour.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileSystem.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\SystemCalls.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory\Detour.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Exports.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileSystem.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\NewDeleteOverride.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SystemCalls.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
