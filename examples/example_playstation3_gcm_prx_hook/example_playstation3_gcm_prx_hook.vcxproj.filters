@@ -18,15 +18,13 @@
     <ClCompile Include="Utils\FileSystem.cpp">
       <Filter>sources</Filter>
     </ClCompile>
-    <ClCompile Include="Hooks.cpp">
-      <Filter>sources</Filter>
-    </ClCompile>
     <ClCompile Include="Memory\Memory.cpp">
       <Filter>sources</Filter>
     </ClCompile>
     <ClCompile Include="Utils\SystemCalls.cpp">
       <Filter>sources</Filter>
     </ClCompile>
+    <ClCompile Include="Hooks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Memory\Detour.hpp">

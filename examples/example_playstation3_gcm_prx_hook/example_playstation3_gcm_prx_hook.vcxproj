@@ -84,10 +84,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hooks.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Memory\Detour.cpp" />
     <ClCompile Include="Memory\Memory.cpp" />
-    <ClCompile Include="Hooks.cpp" />
     <ClCompile Include="Utils\FileSystem.cpp" />
     <ClCompile Include="Utils\SystemCalls.cpp" />
   </ItemGroup>
